@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 export default function Navbar() {
   return (
     <nav>
+      <Link to = '/'>Website</Link>
         <ul>
             <li>
               <Link to ='/'>Home</Link>
