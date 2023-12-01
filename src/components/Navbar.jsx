@@ -5,13 +5,13 @@ export default function Navbar() {
     <nav>
         <ul>
             <li>
-              <Link>Home</Link>
+              <Link to ='/'>Home</Link>
               </li>
             <li>
-              <Link>About</Link>
+              <Link to='/about'>About</Link>
               </li>
             <li>
-              <Link>Service</Link>
+              <Link to ='service'>Service</Link>
               </li>
         </ul>
     </nav>
