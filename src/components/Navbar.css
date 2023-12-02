@@ -20,6 +20,7 @@ nav .title{
 }
 nav ul{
     display: flex;
+    
 }
 nav ul li{
     list-style: none;
@@ -34,4 +35,50 @@ nav ul li a{
 }
 nav ul li a:not(.active):hover{
     background-color: gray;
+}
+nav .menu{
+    display: none;
+    position: absolute;
+    top:0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+@media(max-width: 480px){
+   nav .menu{
+    display: flex;
+   }
+   nav{
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+   }
+   nav ul.open{
+    display: flex;
+}
+   nav ul{
+    display: none;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 0.25rem;
+    text-align: center;
+    
+   }
+   nav ul li {
+    width: 100%;
+    text-align: center;
+   }
+   nav ul li a{
+    margin: 0.2rem 1.5rem;
+   }
+
 }

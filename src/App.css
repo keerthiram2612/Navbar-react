@@ -1,12 +1,8 @@
-li{
-    list-style: none;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
+
 .App{
     background-color: white;
     height: 100%;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
